@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+.icon {
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+    mask-size: contain;
+    -webkit-mask-size: contain;
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+    mask-position: center;
+    -webkit-mask-position: center;
+}
+
+.icon-education {
+    mask-image: url(Education.svg);
+    -webkit-mask-image: url(Education.svg);
+}
+.icon-document{
+    mask-image: url(document.svg);
+    -webkit-mask-image: url(document.svg);
+}
+.icon-star{
+    mask-image: url(star.svg);
+    -webkit-mask-image: url(star.svg);
+}
+.icon-document2{
+    mask-image: url(document2.svg);
+    -webkit-mask-image: url(document2.svg);
+}
+.icon-category{
+    mask-image: url(category.svg);
+    -webkit-mask-image: url(category.svg);
+}
+.icon-scan{
+    mask-image: url(scan.svg);
+    -webkit-mask-image: url(scan.svg);
+}
+.icon-search{
+    mask-image: url(search.svg);
+    -webkit-mask-image: url(search.svg);
+}
+.icon-like{
+    mask-image: url(like.svg);
+    -webkit-mask-image: url(like.svg);
+}
+
+.icon-time{
+    mask-image: url(time.svg);
+    -webkit-mask-image: url(time.svg);
+}
+
+.icon-document3{
+    mask-image: url(document3.svg);
+    -webkit-mask-image: url(document3.svg);
+}
+.icon-like2{
+    mask-image: url(like2.svg);
+    -webkit-mask-image: url(like2.svg);
+}
+.icon-star2{
+    mask-image: url(star2.svg);
+    -webkit-mask-image: url(star2.svg);
+}
+.icon-star3{
+    mask-image: url(star3.svg);
+    -webkit-mask-image: url(star3.svg);
+}

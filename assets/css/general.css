@@ -1,0 +1,244 @@
+
+:root {
+
+    --white: rgba(255, 255, 255, 1);
+    --white2: rgba(243, 243, 243, 1);
+    --white3: rgba(255, 255, 255, 0.8);
+    --white4: rgba(255, 255, 255, 0.7);
+
+
+    --black: rgba(14, 14, 14, 1);
+
+    --green: rgba(23, 144, 113, 1);
+    --green2: rgba(50, 161, 129, 1);
+
+    --gray: rgba(100, 100, 100, 1);
+
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+}
+
+
+.container {
+    max-width: 1232px;
+    margin: 0 auto;
+    padding: 0 16px;
+    width: 100%;
+}
+
+.main {
+    flex: 1 1 auto;
+
+}
+
+
+.text-wrap {
+    display: block;
+}
+
+.desktop-text-wrap {
+    display: block;
+}
+
+
+.img-mobile {
+    display: none;
+}
+
+.text-green {
+    color: var(--green);
+}
+
+.btn-start {
+    padding: 14px 34px;
+    border-radius: 46px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    gap: 7px;
+    cursor: pointer;
+    color: var(--white);
+    transition: .3s;
+
+
+}
+
+.green-btn {
+    background: var(--green);
+
+}
+
+.green-btn:hover {
+    background: var(--green2);
+
+}
+
+.white-btn {
+    background-color: var(--white);
+    color: var(--green);
+}
+
+.white-btn:hover {
+    background: var(--green);
+    color: var(--white);
+
+
+}
+
+.white-btn:hover .default-img {
+    display: none;
+
+
+}
+
+.btn-icon {
+    width: 17px;
+    height: 17px;
+}
+
+.hover-img {
+    display: none;
+}
+
+.white-btn:hover .hover-img {
+    display: block;
+
+
+}
+
+
+.section-p {
+    padding: 80px 0;
+
+}
+
+.section {
+    margin-top: 120px;
+}
+
+.section-title {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 42px;
+    color: var(--white);
+    text-align: center;
+
+}
+
+.block-cnt {
+    margin-top: 65px;
+}
+
+.block-title {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 30.8px;
+    color: var(--black);
+
+}
+
+
+.block-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.2px;
+    color: var(--gray);
+    margin-top: 16px;
+
+
+}
+.text-mobile{
+    display: none;
+}
+
+@media (max-width: 1400px) {
+
+}
+
+@media (max-width: 1200px) {
+
+
+}
+
+@media (max-width: 992px) {
+
+
+}
+
+@media (max-width: 768px) {
+    .block-title {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 20px;
+
+    }
+
+    .desktop-text-wrap {
+        display: inline;
+    }
+
+    .block-text {
+        margin-top: 12px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16.8px;
+
+    }
+
+    .opportunities-texts {
+        margin-top: 20px;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .mobile-text-wrap {
+        display: block;
+    }
+
+    .section-p {
+        padding: 40px 0;
+    }
+
+    .img-desktop {
+        display: none;
+    }
+
+    .section-title {
+        font-weight: 600;
+        font-size: 27px;
+        line-height: 27px;
+    }
+
+    .img-mobile {
+        display: block;
+    }
+
+    .block-cnt {
+        margin-top: 34px;
+    }
+
+    .section {
+        margin-top: 70px;
+    }
+
+    .text-desktop {
+        display: none;
+    }
+
+    .text-mobile {
+        display: block;
+    }
+}
+
+@media (max-width: 400px) {
+
+
+}
