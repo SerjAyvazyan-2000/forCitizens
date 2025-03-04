@@ -141,8 +141,10 @@
 @media (max-width: 992px) {
 
     .menu-bg {
-        background: var(--white);
+        /*background: var(--white);*/
         backdrop-filter: blur(6px);
+        -webkit-backdrop-filter: blur(6px);
+
         position: fixed;
         display: block;
         top: -150%;
@@ -185,6 +187,8 @@
         right: 10px;
         z-index: -1;
         bottom: 60px;
+        max-width: 168px;
+        width: 100%;
 
     }
 
